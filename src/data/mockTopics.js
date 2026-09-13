@@ -1,0 +1,100 @@
+export const topicCategories = [
+  {
+    id: 'programming',
+    name: 'Programming',
+    icon: '💻',
+    color: 'blue',
+    skills: [
+      { id: 'java', name: 'Java', icon: '☕', description: 'Object-oriented programming with Java' },
+      { id: 'python', name: 'Python', icon: '🐍', description: 'Versatile scripting and data language' },
+      { id: 'c', name: 'C', icon: '⚙️', description: 'Low-level system programming' },
+      { id: 'cpp', name: 'C++', icon: '🔧', description: 'High-performance object-oriented programming' },
+      { id: 'javascript', name: 'JavaScript', icon: '✨', description: 'Dynamic web scripting language' },
+      { id: 'sql', name: 'SQL', icon: '🗃️', description: 'Database query language' },
+    ],
+  },
+  {
+    id: 'webdev',
+    name: 'Web Development',
+    icon: '🌐',
+    color: 'orange',
+    skills: [
+      { id: 'html', name: 'HTML', icon: '🏷️', description: 'Structure of web pages' },
+      { id: 'css', name: 'CSS', icon: '🎨', description: 'Styling and layout for web' },
+      { id: 'react', name: 'React', icon: '⚛️', description: 'Popular UI component library' },
+      { id: 'nodejs', name: 'Node.js', icon: '🟢', description: 'JavaScript server-side runtime' },
+    ],
+  },
+  {
+    id: 'aidata',
+    name: 'AI & Data',
+    icon: '🤖',
+    color: 'purple',
+    skills: [
+      { id: 'ai', name: 'Artificial Intelligence', icon: '🧠', description: 'Building intelligent systems' },
+      { id: 'ml', name: 'Machine Learning', icon: '📊', description: 'Algorithms that learn from data' },
+      { id: 'ds', name: 'Data Science', icon: '🔬', description: 'Extracting insights from data' },
+      { id: 'da', name: 'Data Analytics', icon: '📈', description: 'Analyzing and visualizing data' },
+    ],
+  },
+  {
+    id: 'design',
+    name: 'Design',
+    icon: '🎨',
+    color: 'pink',
+    skills: [
+      { id: 'uiux', name: 'UI/UX Design', icon: '🖌️', description: 'User interface and experience design' },
+      { id: 'figma', name: 'Figma', icon: '🖼️', description: 'Professional design and prototyping tool' },
+      { id: 'canva', name: 'Canva', icon: '✏️', description: 'Easy graphic design for everyone' },
+      { id: 'graphic', name: 'Graphic Design', icon: '🎭', description: 'Visual communication and branding' },
+    ],
+  },
+  {
+    id: 'technology',
+    name: 'Technology',
+    icon: '⚡',
+    color: 'cyan',
+    skills: [
+      { id: 'cloud', name: 'Cloud Computing', icon: '☁️', description: 'AWS, Azure, and GCP platforms' },
+      { id: 'cyber', name: 'Cybersecurity', icon: '🔒', description: 'Protecting systems and networks' },
+      { id: 'devops', name: 'DevOps', icon: '🔄', description: 'CI/CD and deployment automation' },
+      { id: 'git', name: 'Git & GitHub', icon: '🌿', description: 'Version control and collaboration' },
+    ],
+  },
+  {
+    id: 'professional',
+    name: 'Professional Skills',
+    icon: '💼',
+    color: 'yellow',
+    skills: [
+      { id: 'comm', name: 'Communication', icon: '🗣️', description: 'Verbal and written communication skills' },
+      { id: 'resume', name: 'Resume Building', icon: '📄', description: 'Crafting impressive resumes' },
+      { id: 'interview', name: 'Interview Skills', icon: '🤝', description: 'Acing technical and HR interviews' },
+      { id: 'presentation', name: 'Presentation Skills', icon: '📊', description: 'Delivering impactful presentations' },
+    ],
+  },
+  {
+    id: 'productivity',
+    name: 'Productivity',
+    icon: '📋',
+    color: 'teal',
+    skills: [
+      { id: 'excel', name: 'Excel', icon: '📊', description: 'Spreadsheets, formulas, and pivot tables' },
+      { id: 'powerpoint', name: 'PowerPoint', icon: '📑', description: 'Creating professional presentations' },
+      { id: 'word', name: 'Word', icon: '📝', description: 'Document creation and formatting' },
+    ],
+  },
+];
+
+export const popularSearches = [
+  'Java Arrays',
+  'Python Recursion',
+  'Git Basics',
+  'SQL Joins',
+  'Figma Auto Layout',
+  'Excel Pivot Table',
+  'React Hooks',
+  'Machine Learning',
+  'Resume Building',
+  'Communication Skills',
+];
